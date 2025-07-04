@@ -5,6 +5,8 @@
 </script>
 
 <div class="min-h-screen bg-gradient-to-br to-tertiary-400">
+    <div class="h-44"></div>
+
     <div class="flex items-center justify-center p-4">
         <TempText />
         <WeatherDetail />

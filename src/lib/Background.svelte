@@ -1,2 +1,8 @@
-<div class = "fixed top-0 left-0 w-full h-full object-cover z-[-9] opacity-30 bg-gradient-to-br to-tertiary-400"></div>
-<img src="background.jpg" class="fixed top-0 left-0 w-full h-full object-cover z-[-10] opacity-5" alt="background">
+<div
+    class="fixed top-0 left-0 w-full h-full object-cover z-[-9] opacity-30 bg-gradient-to-br to-tertiary-400"
+></div>
+<img
+    src="background.jpg"
+    class="fixed top-0 left-0 w-full h-full object-cover z-[-10] opacity-30"
+    alt="background"
+/>
