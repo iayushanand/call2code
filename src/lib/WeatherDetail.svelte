@@ -1,1 +1,3 @@
-<div></div>
+<div class="flex">
+    <div>☁</div>
+</div>
