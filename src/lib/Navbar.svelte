@@ -1,19 +1,25 @@
-<script lang="ts">
-  import { AppBar } from '@skeletonlabs/skeleton-svelte';
-  import ArrowLeft from '@lucide/svelte/icons/arrow-left';
-  import Paperclip from '@lucide/svelte/icons/paperclip';
-  import Calendar from '@lucide/svelte/icons/calendar';
-  import CircleUser from '@lucide/svelte/icons/circle-user';
+<script>
+  import { Wheat } from '@lucide/svelte';
+  import { House } from '@lucide/svelte';
+  import { CloudSun } from '@lucide/svelte';
+  import { Tractor } from '@lucide/svelte';
 </script>
 
-<AppBar>
-  {#snippet lead()}
-    <ArrowLeft size={24} />
-  {/snippet}
-  {#snippet trail()}
-    <Paperclip size={20} />
-    <Calendar size={20} />
-    <CircleUser size={20} />
-  {/snippet}
-  <span>Title</span>
-</AppBar>
+
+
+<nav class="fixed top-0 left-0 w-full z-20 backdrop-blur-md bg-white/10 dark:bg-black/20 border-b border-white/10 dark:border-white/20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+
+    <h1 class="text-xl font-bold text-white inline-flex items-center space-x-2">
+        <Wheat class="w-5 h-5" />
+        <span>Agri Assist</span>
+    </h1>
+
+
+    <ul class="flex space-x-6 text-white text-sm">
+      <li><a href="/" class="hover:underline"><House class="w-5 h-5" /> </a></li>
+      <li><a href="/" class="hover:underline"> <CloudSun class="w-5 h-5" /> </a></li>
+      <li><a href="/" class="hover:underline"> <Tractor class="w-5 h-5" /> </a></li>
+    </ul>
+  </div>
+</nav>
