@@ -13,7 +13,7 @@
     <a href="/">
     <h1 class="text-xl font-bold text-white inline-flex items-center space-x-2">
         <Wheat class="w-5 h-5" />
-        <span>Agri Assist</span>
+        <span>Farm Assist</span>
     </h1>
     </a>
 
