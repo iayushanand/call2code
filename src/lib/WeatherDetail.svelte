@@ -8,9 +8,7 @@
 
 <div class="flex gap-6">
     <div>
-        <CloudIcon
-            class="h-32 w-32 mask-l-from-tertiary-contrast-50-950 text-tertiary-100"
-        />
+        <CloudIcon class="h-32 w-32 text-tertiary-100" />
     </div>
     <div class="h-24 w-1 bg-tertiary-100 my-auto opacity-35"></div>
     <div class="flex flex-col justify-center gap-2">
