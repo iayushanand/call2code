@@ -1,11 +1,12 @@
 <script>
-    const imgSrc =
-        "https://images.unsplash.com/photo-1463171515643-952cee54d42a?q=80&w=450&h=190&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+    const imgSrc1 = "/aifarmer.png";
+    const imgSrc2 = "/hoefarmer.png";
+    const imgSrc3 = "/sellfarmer.png";
 </script>
 
 <div class="relative z-10 pt-20 px-4 w-full text-center">
-    <div class="max-w-7xl mx-auto rounded-2xl p-6 sm:p-10 space-y-10">
-        <p class="text-4xl sm:text-4xl font-bold text-tertiary-100">
+    <div class="max-w-7xl mx-auto rounded-2xl space-y-10">
+        <p class="text-6xl sm:text-12xl font-bold text-tertiary-100">
             Farm Assist
         </p>
         <h2 class="text-lg sm:text-xl font-semibold text-tertiary-200">
@@ -28,14 +29,13 @@
 
             <!-- Cards Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {#each [1, 2, 3] as i}
                     <div
                         class="border-2 border-tertiary-700/40 rounded-2xl bg-[rgba(0,0,0,0.5)] overflow-hidden"
                     >
-                        <header>
+                        <header class = "overflow-hidden group">
                             <img
-                                src={imgSrc}
-                                class="aspect-[21/9] w-full object-cover grayscale hue-rotate-90"
+                                src={imgSrc1}
+                                class ="aspect-[3/2] w-full object-cover hover:grayscale hover:hue-rotate-90 transition-transform duration-500 ease-in-out group-hover:scale-105"
                                 alt="banner"
                             />
                         </header>
@@ -60,7 +60,74 @@
                             </ul>
                         </article>
                     </div>
-                {/each}
+
+                    
+
+                    <div
+                        class="border-2 border-tertiary-700/40 rounded-2xl bg-[rgba(0,0,0,0.5)] overflow-hidden"
+                    >
+                        <header class = "overflow-hidden group">
+                            <img
+                                src={imgSrc2}
+                                class ="aspect-[3/2] w-full object-cover hover:grayscale hover:hue-rotate-90 transition-transform duration-500 ease-in-out group-hover:scale-105"
+                                alt="banner"
+                            />
+                        </header>
+                        <article
+                            class="space-y-4 p-4 text-left text-sm sm:text-base"
+                        >
+                            <div>
+                                <h4
+                                    class="text-tertiary-100 font-semibold text-lg"
+                                >
+                                    📍 Location-Based Guidance
+                                </h4>
+                                <p class="text-tertiary-200">
+                                    Farming isn't one-size-fits-all. Enter your location, and we'll provide:
+                                </p>
+                            </div>
+                            <ul class="list-disc list-inside text-tertiary-100">
+                                <li>Localized soil and climate insights</li>
+                                <li>Weather alerts that matter to your farm</li>
+                                <li>Advice based on regional agricultural trends</li>
+                            </ul>
+                        </article>
+                    </div>
+
+
+
+
+                    <div
+                        class="border-2 border-tertiary-700/40 rounded-2xl bg-[rgba(0,0,0,0.5)] overflow-hidden"
+                    >
+                        <header class = "overflow-hidden group">
+                            <img
+                                src={imgSrc3}
+                                class ="aspect-[3/2] w-full object-cover hover:grayscale hover:hue-rotate-90 transition-transform duration-500 ease-in-out group-hover:scale-105"
+                                alt="banner"
+                            />
+                        </header>
+                        <article
+                            class="space-y-4 p-4 text-left text-sm sm:text-base"
+                        >
+                            <div>
+                                <h4
+                                    class="text-tertiary-100 font-semibold text-lg"
+                                >
+                                    🌱 Live Market Price Checker
+                                </h4>
+                                <p class="text-tertiary-200">
+                                    Never overpay again. With our seed price tracker, you can:
+                                </p>
+                            </div>
+                            <ul class="list-disc list-inside text-tertiary-100">
+                                <li>Compare real-time seed prices from government chart</li>
+                                <li>Discover affordable alternatives</li>
+                                <li>Track price trends to buy at the right time</li>
+                            </ul>
+                        </article>
+                    </div>
+
             </div>
         </div>
     </div>
