@@ -1,6 +1,9 @@
+`Challenge #1 - Real World, Real APIs`
+
 # 🌾 Farm Assist - Smart Farming, Powered by AI
 
 **Empowering India's farmers with AI-driven insights for better crop decisions and financial security.**
+
 
 ## 🚜 Project Overview
 
