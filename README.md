@@ -118,6 +118,32 @@ Farm Assist integrates with several powerful APIs to deliver comprehensive agric
 - **Scalable Solution**: Cloud-based APIs ensure the platform can serve farmers across India
 - **Cost-effective**: Leveraging existing APIs reduces development costs and time-to-market
 
+
+
+## 🎨 Website Screenshot
+
+Homepage - 1
+![HomePage](static/screen1.png)
+
+
+Homepage - 2
+![HomePage](static/screen2.png)
+
+
+Weather
+![HomePage](static/screen3.png)
+
+
+Market Pricing - 1
+![HomePage](static/screen4.png)
+
+
+Market Pricing - 2
+![HomePage](static/screen5.png)
+
+
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
