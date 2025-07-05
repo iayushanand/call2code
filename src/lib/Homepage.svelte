@@ -5,9 +5,9 @@
 
 <div class="relative z-10 pt-20 px-4 w-full text-center">
     <div class="max-w-7xl mx-auto rounded-2xl p-6 sm:p-10 space-y-10">
-        <h1 class="text-3xl sm:text-4xl font-bold text-tertiary-100">
-            Agri Assist
-        </h1>
+        <p class="text-4xl sm:text-4xl font-bold text-tertiary-100">
+            Farm Assist
+        </p>
         <h2 class="text-lg sm:text-xl font-semibold text-tertiary-200">
             Smarter Farming, Powered by AI
         </h2>
@@ -15,7 +15,7 @@
         <p class="text-tertiary-100 max-w-2xl mx-auto text-sm sm:text-base">
             🔍 Real-Time Farming Insights for Your Location<br />
             Know what to plant, when to plant, and how to maximize your yield — all
-            with the power of AI. AgriGenius gives you instant recommendations based
+            with the power of AI. Farm Assist gives you instant recommendations based
             on your farm's location, current weather conditions, and market prices.
         </p>
 
@@ -23,7 +23,7 @@
 
         <div class="space-y-6">
             <h3 class="text-xl sm:text-2xl font-semibold text-tertiary-100">
-                ✅ What You Can Do with AgriGenius
+                ✅ What You Can Do with Farm Assist
             </h3>
 
             <!-- Cards Grid -->
