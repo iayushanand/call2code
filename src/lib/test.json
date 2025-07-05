@@ -1,0 +1,98 @@
+{
+    "success": true,
+    "data": [
+        {
+            "commodity": "Apple",
+            "variety": "Kasmir/Shimla - II",
+            "maxPrice": 7860,
+            "minPrice": 7800,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Bottle gourd",
+            "variety": "Bottle Gourd",
+            "maxPrice": 1960,
+            "minPrice": 1900,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Cabbage",
+            "variety": "Cabbage",
+            "maxPrice": 1640,
+            "minPrice": 1600,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Garlic",
+            "variety": "Garlic",
+            "maxPrice": 2460,
+            "minPrice": 2400,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Green Chilli",
+            "variety": "Green Chilly",
+            "maxPrice": 2560,
+            "minPrice": 2500,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Lemon",
+            "variety": "Lemon",
+            "maxPrice": 4260,
+            "minPrice": 4200,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Mango",
+            "variety": "Dusheri",
+            "maxPrice": 1660,
+            "minPrice": 1600,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Onion",
+            "variety": "Red",
+            "maxPrice": 1860,
+            "minPrice": 1800,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Potato",
+            "variety": "Desi",
+            "maxPrice": 1680,
+            "minPrice": 1600,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Pumpkin",
+            "variety": "Pumpkin",
+            "maxPrice": 1460,
+            "minPrice": 1400,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Ridgeguard(Tori)",
+            "variety": "Ridgeguard(Tori)",
+            "maxPrice": 1750,
+            "minPrice": 1700,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Tomato",
+            "variety": "Local",
+            "maxPrice": 1700,
+            "minPrice": 1629,
+            "date": "2025-07-04"
+        },
+        {
+            "commodity": "Wheat",
+            "variety": "Dara",
+            "maxPrice": 2454,
+            "minPrice": 2400,
+            "date": "2025-07-04"
+        }
+    ],
+    "lastUpdated": "2025-07-04T22:44:38.224Z",
+    "totalItems": 13
+}
