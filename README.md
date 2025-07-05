@@ -30,7 +30,7 @@ Farm Assist leverages cutting-edge AI technology and real-time data to provide f
 - Weather interpretation in farmer-friendly language
 
 #### 💰 **Live Crop Price Updates**
-- Real-time commodity prices from nearby mandis (markets)
+- Daily commodity prices from nearby mandis (markets)
 - Min/max price ranges for informed selling decisions
 - Smart recommendations on optimal sell-time and location
 - Market trend analysis for better financial planning
@@ -41,10 +41,8 @@ Farm Assist leverages cutting-edge AI technology and real-time data to provide f
 - Soil condition analysis and suggestions
 - Market demand forecasting for crop selection
 
-#### 🎤 **Voice & Language Assist**
+#### 🎤 **Language Assist**
 - Multilingual support for regional languages
-- Voice input and output capabilities
-- Audio-based weather and price updates
 - Accessibility features for illiterate farmers
 
 #### 📅 **Sowing & Harvest Planner**
@@ -52,12 +50,6 @@ Farm Assist leverages cutting-edge AI technology and real-time data to provide f
 - Smart reminders for planting and harvesting
 - Seasonal activity scheduling
 - Growth tracking and milestone alerts
-
-#### 🤖 **AI Chat Assistant**
-- 24/7 agricultural support in local languages
-- Instant answers to farming questions
-- Expert advice on crop diseases and pest control
-- Personalized recommendations based on location and crop type
 
 ## 🎯 Impact & Benefits
 
@@ -104,12 +96,10 @@ Farm Assist integrates with several powerful APIs to deliver comprehensive agric
 - **Benefits**: Helps farmers get fair prices by providing transparent market information
 
 ### 🎤 **Sarvam AI API**
-- **Purpose**: Multilingual voice recognition and translation
+- **Purpose**: Multilingual recognition and translation
 - **Features**:
-  - Voice recognition in regional Indian languages
   - Real-time translation between local languages and English
   - Natural language understanding for farmer queries
-  - Audio output for weather updates and market information
 - **Benefits**: Breaks down language barriers, making the platform accessible to farmers who speak regional languages
 
 ### 🤖 **Gemini API**
